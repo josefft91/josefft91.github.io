@@ -1,10 +1,11 @@
+body{
+    font-family: 'Droid Sans', sans-serif;
+}
+
 /** Header **/
 
 header{
-    /*text-align: center;*/
-    margin-left: 10px;
     display: inline-block;
-    /*float: left;*/
 }
 
 header h1 {
@@ -43,15 +44,15 @@ header a:hover {
 
 /** Nav Bar **/
 
-nav{
-    margin-left: 10px;
-}
-
 .nav>li>a{
     color: #333333;
 }
 
 .nav-pills>li.active>a{
+    background-color: #333333;
+}
+
+.nav-pills>li.active>a:hover{
     background-color: #333333;
 }
 
@@ -68,6 +69,53 @@ nav{
     }
 }
 
+/** Main Section **/
+.main{
+    float: left;
+}
+
+.tag-line{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.contact-list{
+    list-style: none;
+}
+
+.contact-list .fa{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.contact-info{
+    font-style: normal;
+}
+
+@media screen and (min-width: 992px) {
+    .tag-line{
+        margin-top: 0;
+        font-size: 32px;
+        width: 600px;
+    }
+
+    .contact-list .fa{
+        margin-right: 20px;
+    }
+
+    .contact-list .fa-2x {
+        font-size: 3em;
+    }
+
+    .contact-info{
+        font-size: 22px;
+    }
+}
+
+/** Footer **/
+footer{
+    float: left;
+}
 
 
 
