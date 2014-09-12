@@ -74,10 +74,41 @@ header a:hover {
     float: left;
 }
 
+.work .col-lg-6{
+    text-align: center;
+}
+
 .tag-line{
     margin-top: 10px;
     font-size: 24px;
 }
+
+/** CV Page **/
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.location{
+    float: right;
+}
+
+.period{
+    float: right;
+}
+
+.education-entry{
+    padding-bottom: 10px;
+}
+
+.education-entry p{
+    margin-bottom: 0;
+}
+
+/** Contact Page **/
 
 .contact-list{
     list-style: none;
