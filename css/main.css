@@ -83,6 +83,10 @@ header a:hover {
     font-size: 24px;
 }
 
+.container.work ul{
+    margin-left: 15px;
+}
+
 /** CV Page **/
 .bold{
     font-weight: bold;
