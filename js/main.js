@@ -5,7 +5,7 @@ $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=80885758@N
 
     var i = 0;
     var j = 0;
-    while(i < 5){
+    while(i <= 4){
 
         //make sure to get only landscape images
         var width = images[j].description.match(/width([^ ]*)/)[0].replace(/\"/g, '');
@@ -13,8 +13,8 @@ $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=80885758@N
 
         if(width == 240){
             var image = images[j].media.m;
-            // image = image.replace('_m', '_q_d');
-            document['flickr-'+i].src = image;
+
+            document.getElementById('flickr-'+i).src = image;
             document.getElementById('flickr-'+i+'-link').href = images[j].media.m.split('m.jpg')[0] + 'b.jpg';;
             i++;
         }
