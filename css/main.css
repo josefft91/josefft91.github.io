@@ -150,6 +150,7 @@ header a:hover {
 /** Footer **/
 footer{
     float: left;
+    margin-bottom: 10px;
 }
 
 
