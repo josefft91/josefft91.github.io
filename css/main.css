@@ -104,6 +104,10 @@ header a:hover {
     float: right;
 }
 
+.work-entry ul{
+    padding-left: 40px;
+}
+
 .education-entry{
     padding-bottom: 10px;
 }
