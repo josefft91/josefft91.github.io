@@ -1,4 +1,9 @@
-$.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=80885758@N02&format=json&jsoncallback=?", function(data){
+$(".main").onepage_scroll({
+    pagination: false,
+});
+
+
+/*$.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=80885758@N02&format=json&jsoncallback=?", function(data){
 
     //shuffle images so gets different ones each time
     var images = shuffle(data.items);
@@ -39,4 +44,4 @@ function shuffle(array) {
     }
 
     return array;
-}
+}*/

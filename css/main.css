@@ -4,9 +4,9 @@ body{
 
 /** Header **/
 
-header{
+/*header{
     display: inline-block;
-}
+}*/
 
 header h1 {
     font-size: 32px;
@@ -74,6 +74,28 @@ header a:hover {
     float: left;
 }
 
+.main .jumbotron {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.main .jumbotron ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main .jumbotron ul li a i.fa-4x {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.about-me {
+    text-align: center;
+}
+
 .work .col-lg-6{
     text-align: center;
 }
@@ -118,7 +140,11 @@ header a:hover {
 
 /** Contact Page **/
 
-.contact-list{
+.contact-header {
+    text-align: center;
+}
+
+.contact-list {
     list-style: none;
 }
 
@@ -127,8 +153,13 @@ header a:hover {
     vertical-align: middle;
 }
 
-.contact-info{
-    font-style: normal;
+section.contact-info{
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {
@@ -142,12 +173,8 @@ header a:hover {
         margin-right: 20px;
     }
 
-    .contact-list .fa-2x {
-        font-size: 3em;
-    }
-
     .contact-info{
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
