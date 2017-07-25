@@ -1,6 +1,8 @@
+/*
 $(".main").onepage_scroll({
     pagination: false,
 });
+*/
 
 
 /*$.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?id=80885758@N02&format=json&jsoncallback=?", function(data){
