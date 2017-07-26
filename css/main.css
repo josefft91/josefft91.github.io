@@ -96,9 +96,14 @@ header a:hover {
     background-color: #000000;
 }
 
-.main.down {
+.jumbotron .down {
     text-align: center;
     color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
 }
 
 .about-me {
