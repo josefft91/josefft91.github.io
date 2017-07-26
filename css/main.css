@@ -96,12 +96,26 @@ header a:hover {
     background-color: #000000;
 }
 
+.main.down {
+    text-align: center;
+    color: #ffffff;
+}
+
 .about-me {
     text-align: center;
+    padding-top: 30px;
 }
 
 .about-section {
     position: relative;
+}
+
+.about-container {
+    height: 75vh;
+}
+
+.contact-container {
+    text-align: center;
 }
 
 .work .col-lg-6{
