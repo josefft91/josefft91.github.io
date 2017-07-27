@@ -68,12 +68,6 @@ header a:hover {
         padding: 10px 40px;
     }
 }
-
-/** Main Section **/
-/*.main{
-    float: left;
-}*/
-
 .main section {
     height: 100vh;
 }
@@ -115,12 +109,9 @@ header a:hover {
     position: relative;
 }
 
-.about-container {
-    height: 75vh;
-}
-
 .contact-container {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .work .col-lg-6{
