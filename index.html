@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <!--<link rel="stylesheet" href="css/onepage-scroll.css">-->
         <link href='http://fonts.googleapis.com/css?family=Raleway%7CDroid+Serif' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -29,7 +28,7 @@
         <![endif]-->
 
     <div class="main">
-        <section>
+        <section class="scrollify" data-section-name="home">
             <div class="jumbotron">
                 <div class="container">
                     <h1>Joseff Thomas</h1>
@@ -50,18 +49,9 @@
                     <i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i>
                 </div>
             </div>
-
-
-            <!--<p>
-                I am a Sheffield based web developer. When not doing web development,
-                I like to <a target="_blank" href="http://www.ukclimbing.com/logbook/showlog.html?id=197943">climb</a>
-                and take <a target="_blank" href="https://www.flickr.com/photos/josefft/">photographs</a>.
-                You can read more about what I do below, view my <a href="./cv.html">CV</a>
-                or <a href="./contact.html">contact</a> me.
-            </p>-->
         </section>
 
-        <section class="about-section">
+        <section class="about-section scrollify" data-section-name="about">
             <div class="about-container container">
                 <div class="about-me row">
                     <h3>Hello, my name is Joe!</h3>
@@ -74,7 +64,7 @@
 
                         <p>
                             I currently work as a web developer for <a target="_blank" href="http://www.twinkl.co.uk">Twinkl</a>.
-                            Prior to this I spent three years working in London as a web developer for
+                            Prior to this I was based in London where I worked as a web developer for
                             <a target="_blank" href="http://www.touchantech.com">ToucanTech</a> and
                             <a target="_blank" href="http://www.businessbecause.com">BusinessBecause</a>. I also
                             created the website for <a href="http://www.nahuru.com" target="_blank">Nahuru</a>.
@@ -83,8 +73,8 @@
                         <p>
                             When not writing code, I can often be found
                             <a target="_blank" href="http://www.ukclimbing.com/logbook/showlog.html?id=197943">climbing</a>
-                            on one of the many gritstone edges in the Peak District or down on of Sheffield's climbing walls as it
-                            also rains a lot in England!
+                            on one of the many gritstone edges in the Peak District or down one of Sheffield's climbing walls as it
+                            also rains a lot in Northern England!
                         </p>
                     </div>
 
@@ -141,51 +131,24 @@
         </section>
     </div>
 
-    <!--<nav>
-        <div class="container-fluid">
-            <ul class="nav nav-pills">
-                <li class="active"><a href="./index.html">Home</a></li>
-                &lt;!&ndash;<li><a href="./about.html">About</a></li>&ndash;&gt;
-                <li><a href="./cv.html">CV</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
 
+    <script src="js/vendor/bootstrap.min.js"></script>
 
+    <script src="js/vendor/jquery.onepage-scroll.min.js"></script>
+    <script src="js/vendor/jquery.scrollify.min.js"></script>
 
+    <script src="fancybox/jquery.fancybox.pack.js"></script>
 
-    <!--<footer>
-        <div class="container">
-            Joseff Thomas &copy; 2014
-        </div>
+    <script src="js/main.js"></script>
 
-        <div class="container">
-            Disclaimer: I am in not the same person as the British chess player
-            <a target="_blank" href="http://www.bbc.co.uk/news/world-europe-25059312">Joseff Thomas</a> as other
-            <a target="_blank" href="http://www.ecforum.org.uk/viewtopic.php?p=128093#p128093">people</a> may have
-            thought.
-        </div>
-    </footer>-->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/vendor/jquery.onepage-scroll.min.js"></script>
-
-        <script src="fancybox/jquery.fancybox.pack.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(".fancybox").fancybox();
-            });
-        </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".fancybox").fancybox();
+        });
+    </script>
 
         <!--<script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
