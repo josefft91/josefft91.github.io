@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway%7CDroid+Serif' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -38,14 +39,14 @@
 <section class="main">
     <div class="container">
         <div class="col-md-9">
-            <h1 class="page-header">Joseff Thomas CV</h1>
-                <div class="col-md-12">
-                    <h2>Skills</h2>
-                        <div class="col-md-6">
+            <h1 class="display-4">Joseff Thomas CV</h1>
+                <h2>Skills</h2>
+                <div class="row">
+                        <div class="col">
                             <h3>Backend</h3>
                                 <ul>
-                                    <li>Professional experience using PHP, CodeIgniter and PyroCMS.</li>
-                                    <li>Experience of writing SQL and have used MySQL and Oracle databases.</li>
+                                    <li>Professional experience using PHP, CodeIgniter and Symfony.</li>
+                                    <li>Experience of writing SQL and have used MySQL.</li>
                                     <li>Knowledge of object-orientated design, MVC architecture and database design.</li>
                                     <li>Familiar with the Google, Paypal, LinkedIn, Facebook and Twitter APIs.</li>
                                     <li>Familiar with Java, Ruby and Python.</li>
@@ -54,13 +55,13 @@
                                 </ul>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col">
                             <h3>Frontend</h3>
                                 <ul>
-                                    <li>Proficient at hand coding HTML and CSS to web standards.</li>
-                                    <li>Experience with JavaScript, AJAX, DOM Scripting and jQuery.</li>
+                                    <li>Proficient at hand coding HTML and CSS/SASS to web standards</li>
+                                    <li>Experience with JavaScript, Vue.js, React and jQuery</li>
                                     <li>Knowledge of responsive design, accessibility and cross-browser compliance.</li>
-                                    <li>Knowledge of using frontend frameworks such as Bootstrap and HTML5 Boilerplate.</li>
+                                    <li>Knowledge of using frontend frameworks such as Bootstrap UIKit and Tailwind CSS.</li>
                                 </ul>
                         </div>
 
@@ -68,20 +69,41 @@
                             <h3>Other Relevant Skills</h3>
                                 <ul>
                                     <li>Knowledge of source control and have experience with Git.</li>
-                                    <li>Comfortable developing under Windows and Linux and not afraid to use the command line.</li>
-                                    <li>Basic experience of installing and configuring both Windows and Linux servers.</li>
+                                    <li>Knowledge in deploying development environments using Vagrant.</li>
                                     <li>Quick and keen learner, like to keep skills relevant and up to date by self teaching, reading blogs and attending conferences.</li>
                                 </ul>
                         </div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="row">
                     <h2>Experience</h2>
 
                     <div class="work-entry">
+                        <span class="company bold">Nahuru (Freelance)</span><span class="location bold">Remote</span><br>
+                        <span class="role italic">Web Developer</span><span class="period italic">May 2018 - Present</span><br>
+                        <a target="_blank" href="http://www.nahuru.com">www.nahuru.com</a>
+                        <p>
+                                Nahuru is a data analytics company, which focuses on audience measurement services for the entertainment and marketing industry. 
+                                I have been working with Nahuru on various projects on a freelance basis.
+                        </p>
+                        <span class="bold">Responsibilities and Achievements</span>
+                        <ul>
+                            <li>
+                                Implemented website redesign using PyroCMS and Bootstrap.
+                            </li>
+                            <li>
+                                Nahuhash - developed torrent hash search UI for their 'Sauto' database using Vue.js.
+                            </li>
+                            <li>
+                                Developed a dashboard user interface to display Periscope Data charts.
+                            </li>
+                        </ul>
+                    </div>
+                        
+                    <div class="work-entry">
                         <span class="company bold">Tonic Works</span><span class="location bold">Sheffield</span><br>
-                        <span class="role italic">Symfony PHP Developer</span><span class="period italic">November 2017 - Present</span><br>
-                        <a target="_blank" href="http://www.twinkl.co.uk">www.twinkl.co.uk</a>
+                        <span class="role italic">Symfony PHP Developer</span><span class="period italic">November 2017 - May 2018</span><br>
+                        <a target="_blank" href="http://tonic.works">http://tonic.works</a>
                         <p>
                             My role at Tonic Works has involved working on various SaaS projects
                             within the LegalTech sector using Symfony and React.
@@ -226,21 +248,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12">
-                     <h2>Freelance</h2>
-                    <div class="work-entry">
-                        <span class="company bold">Nahuru</span>
-                        <span class="role italic">Website Development</span><span class="period italic">2016</span><br>
-                        <a target="_blank" href="www.nahuru.com">www.nahuru.com</a>
-                        <p>
-                            Nahuru is a data analytics company, which focuses on audience measurement services for the
-                            entertainment and marketing industry. I was tasked with implementing their updated website,
-                            which was I built using PyroCMS and Bootstrap.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-12">
+                <div class="row d-block">
                     <h2>Education</h2>
                     <div class="education-entry">
                         <span class="bold">Aberystwyth University</span><br>
@@ -264,30 +272,23 @@
                     </div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="row d-block">
+                    
                     <h2>Interests</h2>
                     <p>
-                        My interests include climbing, running, cycling, home cooking and photography.
+                        My interests include rock climbing, running, cycling, home cooking and photography.
                     </p>
                 </div>
-
-
-
         </div>
-
-        <div class="col-md-3">
-
-        </div>
-
     </div>
 </section>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-
-<script src="js/vendor/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script src="js/main.js"></script>
 

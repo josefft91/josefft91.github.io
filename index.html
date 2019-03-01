@@ -11,11 +11,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/font-awesome.min.css"> 
         <link href='http://fonts.googleapis.com/css?family=Raleway%7CDroid+Serif' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        
+        
         <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -41,9 +43,9 @@
         <section class="scrollify" data-section-name="home">
             <div class="jumbotron">
                 <div class="container">
-                    <h1>Joseff Thomas</h1>
+                    <h1 class="display-3">Joseff Thomas</h1>
 
-                    <p>
+                    <p class="lead">
                         Sheffield \\ Web Developer \\ Rock Climber
                     </p>
 
@@ -61,22 +63,26 @@
             </div>
         </section>
 
-        <section class="about-section scrollify" data-section-name="about">
+        <section class="about-section scrollify pt-3" data-section-name="about">
             <div class="about-container container">
+
+                <h3 class="text-center">Hello, my name is Joe!</h3>
+                
                 <div class="about-me row">
-                    <h3>Hello, my name is Joe!</h3>
-                        <div class="col-md-6">
+                        <div class="col d-flex flex-column justify-content-center">
                             <p>
-                                I'm a full stack web developer based in Sheffield. I have experience in all areas of web
-                                development from the backend using PHP, MySQL and frameworks such as CodeIgniter to the
-                                frontend using JavaScript, HTML and to CSS.
+                                I'm a full stack web developer based in Sheffield with experience on many types of projects from 
+                                <a target="_blank" href="http://tonic.works">SaaS</a> <a target="_blank" href="http://www.toucantech.com">web applications</a> 
+                                to <a href="http://www.nahuru.com" target="_blank">bespoke front end development</a>, 
+                                <a target="_blank" href="http://www.businessbecause.com">social media websites</a> and internal legacy applications. 
+                                Some of the technologies I like to use include PHP, Symfony, CodeIgniter, MySQL, JavaScript, Vue.js, React, Git and Composer.
                             </p>
 
                             <p>
-                                I currently work for <a target="_blank" href="http://tonic.works">Tonic Works</a> as a Symfony PHP Developer.
-                                I previously worked as a web developer for <a target="_blank" href="http://www.twinkl.co.uk">Twinkl</a>.
+                                My previous work has included <a target="_blank" href="http://tonic.works">Tonic Works</a> and 
+                                <a target="_blank" href="http://www.twinkl.co.uk">Twinkl</a> in Sheffield.
                                 Prior to this I was based in London where I worked as a web developer for
-                                <a target="_blank" href="http://www.touchantech.com">ToucanTech</a> and
+                                <a target="_blank" href="http://www.toucantech.com">ToucanTech</a> and
                                 <a target="_blank" href="http://www.businessbecause.com">BusinessBecause</a>. I also
                                 created the website for <a href="http://www.nahuru.com" target="_blank">Nahuru</a>.
                             </p>
@@ -84,24 +90,23 @@
                             <p>
                                 When not writing code, I can often be found
                                 <a target="_blank" href="http://www.ukclimbing.com/logbook/showlog.html?id=197943">climbing</a>
-                                on one of the many gritstone edges in the Peak District or down one of Sheffield's climbing walls as it
-                                also rains a lot in Northern England!
+                                on the gritstone edges of the Peak District, sea cliffs of Pembroke or in the mountains of Snowdonia!
                             </p>
                         </div>
 
-                        <div class="col-md-6">
+                        <div class="col ">
                             <img width="300" src="img/tryfan_climbing.jpg">
                         </div>
                 </div>
             </div>
 
-            <div class="container contact-container">
-                <div class="contact-header row">
-                    <h1>Contact</h1>
+            <div class="container contact-container mt-5">
+                <div class="contact-header">
+                    <h1 class="text-center">Contact</h1>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col">
                         <h2>Email</h2>
                         <div class="contact-list">
                             <span class="fa fa-at fa-2x"></span>
@@ -111,7 +116,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col">
                         <h2>CV</h2>
                         <span class="contact-info">
                             <a target="_blank" href="files/joseff-thomas-cv.pdf">PDF</a> /
@@ -120,7 +125,7 @@
                         </span>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col">
                         <h2>Social</h2>
                         <div class="contact-list">
                             <span class="fa fa-linkedin fa-2x"></span>
@@ -140,14 +145,15 @@
         </section>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-
-    <script src="js/vendor/bootstrap.min.js"></script>
-
-    <script src="js/vendor/jquery.onepage-scroll.min.js"></script>
-    <script src="js/vendor/jquery.scrollify.min.js"></script>
+    <script src="js/vendor/jquery.scrollify.js"></script>
 
     <script src="fancybox/jquery.fancybox.pack.js"></script>
 
