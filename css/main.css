@@ -1,5 +1,5 @@
 body{
-    font-family: 'Droid Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /** Header **/
@@ -7,6 +7,10 @@ body{
 /*header{
     display: inline-block;
 }*/
+
+a {
+    color: #2779BD;
+}
 
 header h1 {
     font-size: 32px;
@@ -98,7 +102,7 @@ header a:hover {
 }
 
 .about-me {
-    text-align: center;
+    /* text-align: center; */
     padding-top: 30px;
 }
 
@@ -106,9 +110,8 @@ header a:hover {
     position: relative;
 }
 
-.contact-container {
-    text-align: center;
-    margin-bottom: 25px;
+.contact-section {
+    background: #F8FAFC;
 }
 
 .work .col-lg-6{
@@ -206,6 +209,25 @@ footer{
 }
 .uk-background-cover {
   background-size: cover;
+}
+
+.text-grey-darker {
+    color: #606F7B;
+}
+
+.img-shadow {
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.btn-outline-primary {
+    border-color: #2779BD;
+    color: #2779BD;
+}
+
+.btn-outline-primary:hover {
+    border-color: #2779BD;
+    background-color: #2779BD;
+    color: #FFF;
 }
 
 
