@@ -1,9 +1,9 @@
-$(function () {
-    $.scrollify({
-        section : ".scrollify"
-    });
+// $(function () {
+//     $.scrollify({
+//         section : ".scrollify"
+//     });
 
-    $('.down').click(function () {
-        $.scrollify.next();
-    });
-});
+//     $('.down').click(function () {
+//         $.scrollify.next();
+//     });
+// });

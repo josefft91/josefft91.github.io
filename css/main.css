@@ -68,12 +68,9 @@ header a:hover {
         padding: 10px 40px;
     }
 }
-.main section {
-    height: 100vh;
-}
 
 .main .jumbotron {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     align-items: center;
     background-color: #000000;
@@ -87,7 +84,7 @@ header a:hover {
 
 .main .jumbotron ul li a i.fa-4x {
     color: #ffffff;
-    background-color: #000000;
+
 }
 
 .jumbotron .down {
@@ -202,7 +199,14 @@ footer{
     margin-bottom: 10px;
 }
 
-
+.uk-background-cover,
+.uk-background-contain {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.uk-background-cover {
+  background-size: cover;
+}
 
 
 
