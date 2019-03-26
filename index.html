@@ -66,8 +66,8 @@
 
                 <h3 class="text-center">Hello, my name is Joe!</h3>
                 
-                <div class="about-me d-flex justify-content-center text-grey-darker">
-                        <div class="d-flex flex-column justify-content-center">
+                <div class="about-me d-flex justify-content-center text-grey-darker row">
+                        <div class="col-md-8 d-flex flex-column justify-content-center">
                             <p>
                                 I'm a full stack web developer based in Sheffield with experience on many types of projects from 
                                 <a target="_blank" href="http://tonic.works">SaaS</a> <a target="_blank" href="http://www.toucantech.com">web applications</a> 
@@ -100,7 +100,7 @@
                             </p>
                         </div>
 
-                        <div>
+                        <div class="col-md-4 text-center">
                             <img class="img-shadow" width="300" data-src="img/tryfan_climbing.jpg" uk-img>
                         </div>
                 </div>
@@ -113,7 +113,7 @@
                 <h2>Contact</h2>
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <h3>Email</h3>
                         <ul class="list-unstyled contact-info">
                             <li>
@@ -126,28 +126,38 @@
                         </ul>
                     </div>
 
-                    <div class="col">
+                    <div class="col-sm">
                         <h3>CV</h3>
-                        <span class="contact-info">
-                            <a target="_blank" href="files/joseff-thomas-cv.pdf">PDF</a> /
-                            <a target="_blank" href="https://github.com/josefft91/online-cv/blob/master/joseff-thomas-cv.tex">TeX</a> /
-                            <a target="_blank" href="cv.html">Online</a>
-                        </span>
+                        <ul class="list-unstyled contact-info">
+                            <li>
+                                <a target="_blank" href="files/joseff-thomas-cv.pdf">PDF</a> /
+                                <a target="_blank" href="https://github.com/josefft91/online-cv/blob/master/joseff-thomas-cv.tex">TeX</a> /
+                                <a target="_blank" href="cv.html">Online</a>
+                            </li>
+                            
+                        </ul>
                     </div>
 
-                    <div class="col">
-                        <h3>Social</h>
-                        <div class="contact-list">
-                            <span class="fa fa-linkedin"></span>
-                            <span class="contact-info">
-                            <a target="_blank" href="http://uk.linkedin.com/in/josefft/">http://uk.linkedin.com/in/josefft/</a>
+                    <div class="col-sm">
+                        <h3>Social</h3>
+                        <ul class="list-unstyled contact-info">
+                            <li>
+                                <span class="fa fa-linkedin mr-2"></span>
+                                <a target="_blank" href="http://uk.linkedin.com/in/josefft/">http://uk.linkedin.com/in/josefft/</a>
+                            </li>
+
+                            <li>
+                                <span class="fa fa-twitter mr-2"></span>
+                                <a target="_blank" href="http://twitter.com/josefft">@josefft</a>
+                            </li>
+                        </ul>
+                        <!-- <div class="contact-list">
+                            
                         </span>
                             <br>
-                            <span class="fa fa-twitter"></span>
-                            <span class="contact-info">
-                            <a target="_blank" href="http://twitter.com/josefft">@josefft</a>
+                            
                         </span>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
