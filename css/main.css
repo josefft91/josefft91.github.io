@@ -1,84 +1,18 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Helvetica", "Arial", sans-serif;
 }
-
-/** Header **/
-
-/*header{
-    display: inline-block;
-}*/
 
 a {
     color: #2779BD;
 }
 
-header h1 {
-    font-size: 32px;
-    font-family: 'Droid Serif', serif;
-    font-weight: 400;
-}
-
-header ul li{
-    list-style: none;
-    display: inline-block;
-}
-
-header a {
-    color: #333333;
-}
-
-header a:hover {
-    color: #333333;
-}
-
-@media screen and (min-width: 992px) {
-    header {
-        float: left;
-    }
-    header h1 {
-        font-size: 64px;
-        font-family: 'Droid Serif', serif;
-        font-weight: 400;
-    }
-
-    header .fa-2x{
-        font-size: 3em;
-    }
-}
-
-/** Nav Bar **/
-
-.nav>li>a{
-    color: #333333;
-}
-
-.nav-pills>li.active>a{
-    background-color: #333333;
-}
-
-.nav-pills>li.active>a:hover{
-    background-color: #333333;
-}
-
-@media screen and (min-width: 992px) {
-    nav{
-        float: left;
-        padding-top: 40px;
-        margin-left: 50px;
-        height: 152px;
-    }
-
-    .nav>li>a{
-        padding: 10px 40px;
-    }
-}
-
 .main .jumbotron {
-    /* height: 100vh; */
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
-    background-color: #000000;
-    color: #ffffff;
+    color: #F7FFF7;
+    text-shadow: 0 1px 2px rgb(0,0,0,0.2);
 }
 
 .main .jumbotron ul li {
@@ -87,19 +21,8 @@ header a:hover {
 }
 
 .main .jumbotron ul li a i.fa-4x {
-    color: #ffffff;
-
-}
-
-.jumbotron .down {
-    text-align: center;
-    color: #ffffff;
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    text-align: center;
-    cursor: pointer;
-}
+    color: #F7FFF7;
+} 
 
 .about-me {
     /* text-align: center; */
