@@ -6,9 +6,22 @@ a {
     color: #2779BD;
 }
 
-.main .jumbotron {
+.main .header-bg {
     background-color: rgba(0, 0, 0, 0.2);
     background-blend-mode: multiply;
+}
+
+.main .header-bg .nav a {
+    color: #F7FFF7;
+    text-shadow: 0 1px 2px rgb(0,0,0,0.2);
+}
+
+.main .header-bg .nav a:hover {
+    background-color: transparent;
+}
+
+.main .jumbotron {
+    padding-top: 2rem;
     display: flex;
     align-items: center;
     color: #F7FFF7;
@@ -22,7 +35,7 @@ a {
 
 .main .jumbotron ul li a i.fa-4x {
     color: #F7FFF7;
-} 
+}
 
 .about-me {
     /* text-align: center; */
